@@ -1,0 +1,283 @@
+/*팝업창 css*/
+.pop-layer {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 3%;
+	width: 300px;
+	height: auto;
+	background-color: #fff;
+	border: 5px solid #3571B5;
+	z-index: 10;
+}
+
+.pop-layer .pop-container {
+	padding: 20px 25px;
+}
+
+.pop-layer p.ctxt {
+	color: #666;
+	line-height: 25px;
+}
+
+.pop-layer .btn-r {
+	width: 100%;
+	margin: 10px 0 20px;
+	padding-top: 10px;
+	border-top: 1px solid #DDD;
+	text-align: right;
+}
+
+a.cbtn {
+	display: inline-block;
+	height: 25px;
+	padding: 0 14px 0;
+	border: 1px solid #304a8a;
+	background-color: #3f5a9d;
+	font-size: 13px;
+	color: #fff;
+	line-height: 25px;
+}
+
+a.cbtn:hover {
+	border: 1px solid #091940;
+	background-color: #1f326a;
+	color: #fff;
+}
+/*팝업창 css*/
+
+
+
+
+
+
+.logo_image {
+	width: 44%;
+	margin: 0 auto;
+}
+
+#header-wrapper {
+	background: linear-gradient(to left bottom, rgb(49, 164, 235) 100%,
+		rgb(82, 167, 222));
+}
+
+#header {
+	
+}
+
+#nav ul>li>a { /*메뉴바 글씨부분 */
+	font-weight: bold;
+	font-size: larger;
+	color: white;
+}
+
+#intro-wrapper {
+	background-color: white;
+}
+
+#navPanel { /*모바일메뉴바 */
+	background-color: cornflowerblue;
+}
+
+.intro_span {
+	color: black;
+	font-size: xx-large;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.intro_bakmin_image {
+	display: block;
+	margin: 0 auto;
+	width: 45%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+.download_link {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	background: linear-gradient(to left bottom, rgb(49, 164, 235) 100%,
+		rgb(82, 167, 222));;
+}
+
+.download_link_a {
+	color: rgb(49, 164, 235);
+}
+
+.download_link_image {
+	width: 24%;
+}
+
+#header-wrapper {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.busy_life_image {
+	display: block;
+	margin: 0 auto;
+	width: 72%;
+}
+
+#busy_life {
+	padding-top: 0%;
+}
+
+.txt_main {
+	width: 90%;
+}
+
+.wrapper.style2 {
+	background: linear-gradient(to left bottom, rgb(49, 164, 235) 100%,
+		rgb(82, 167, 222));
+}
+
+.time {
+	width: 100%;
+	padding-bottom: 2%;
+}
+
+.loc {
+	width: 36%;
+	padding-bottom: 2%;
+}
+
+#main {
+	text-align: center;
+}
+
+#price {
+	background-color: white;
+}
+
+.policy {
+	width: 46%;
+}
+
+.price {
+	width: 30%;
+}
+
+.end {
+	width: 95%;
+}
+
+#price a {
+	color: #FFF;
+}
+
+#footer-wrapper textarea, input {
+	color: black;
+}
+
+.kakao {
+	width: 2.6em;
+}
+
+.kakao_h3 {
+	display: inline-block;
+	padding-left: 0.5em;
+	position: relative;
+	top: -14px;
+}
+
+.logo {
+	width: 5.3em;
+	display: inline-block;
+	margin-right: 2%;
+	height: 9em;
+}
+
+.information {
+	display: inline-block;
+	text-align: left;
+	font-size: 1.0em;
+	line-height: 1.5em;
+}
+
+#highlights p {
+	color: black;
+	display: inline;
+}
+
+.bakmincompany {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#highlights {
+	text-align: center;
+}
+
+.IUSP {
+	display: inline-block;
+	width: 12em;
+	padding: 3%;
+}
+
+.mixpanel {
+	display: block;
+	padding-left: 18%;
+	padding-bottom: 7%;
+	width: 83%;
+}
+
+.inipay {
+	width: 42%;
+}
+
+.e_inipay {
+	width: 42%;
+}
+
+.adress_search {
+	min-width: 0em !important;
+	min-height: 0em;
+	padding: 0 !important;
+	background: url(images/adress.png) !important;
+	border-radius: 5px !important;
+	line-height: 0 !important;
+}
+
+.order_button {
+	background: url(images/adress.png) !important;
+	transition: all .25s ease-in-out !important;
+	border-radius: 7px !important;
+}
+
+.order_button:hover {
+	background: url(images/order_hover.png) !important;
+}
+
+.cansel_button {
+	background: url(images/cansel.png) !important;
+	border-radius: 7px !important;
+}
+
+/*  이용방법(usejsp.jsp) */
+#utilization {
+	text-align: center;
+}
+
+.use_image1 {
+	width: 20em;
+	margin-top: 2em;
+}
+
+/* F A Q */
+#faq {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#faq_content p, span {
+	color: black;
+	margin-bottom: 0em;
+}
+
+/* price_page */
+.price_table {
+	width: 80%;
+}
